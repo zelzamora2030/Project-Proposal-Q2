@@ -1,0 +1,87 @@
+RollCall – Change Log
+v1.2 – Project Overview & Summary Refinement (2025-12-05)
+Major Changes
+Reorganized project overview to create a clearer structure.
+
+
+Improved feature descriptions for readability and parallel wording.
+
+
+Updated attendance-summary explanation for accuracy.
+
+
+Cleaned up spacing and Markdown formatting across all sections.
+
+
+Ensured heading levels follow a consistent hierarchy.
+
+
+Minor Changes
+Standardized punctuation and sentence style.
+
+
+Adjusted phrasing for clarity and smoother flow.
+
+
+Removed redundant wording and improved section transitions.
+
+v1.1 – Documentation Update (2025-08-15)
+Major Changes
+Corrected file reference
+
+
+Changed math_calculator.py → rollcall.py to match the project name.
+
+
+Improved structure and formatting
+
+
+Added proper Markdown headings and spacing (## Example Output instead of ##Example Output).
+
+
+Formatted example output into a code block.
+
+
+Clarified run instructions
+
+
+Added python rollcall.py command example.
+
+
+Noted IDE alternative (F5).
+
+
+Refined feature list
+
+
+Rewrote bullet points for conciseness and parallel style.
+
+
+Minor Changes
+Fixed grammar and punctuation (spaces after commas, capitalization of attendance statuses).
+
+
+Standardized terminology (Present / Absent / Tardy).
+
+
+Improved readability with bold emphasis and shorter sentences.
+
+
+Reformatted contributors list with em dashes for clarity.
+
+
+
+v1.0 – Initial Project Description
+Original RollCall project documentation created.
+
+
+Listed features, run instructions, and contributors.
+
+
+Included sample output format.
+
+
+Used placeholder filename math_calculator.py.
+
+
+Formatting and grammar were functional but inconsistent.
