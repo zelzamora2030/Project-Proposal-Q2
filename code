@@ -1,0 +1,51 @@
+
+attendance = {}
+
+while True:
+    print("1. Add participant")
+    print("2. Mark attendance")
+    print("3. View attendance")
+    print("4. Exit")
+
+    choice = input("Choose an option: ")
+
+
+    if choice == "1":
+        name = input("Enter name: ")
+        if name in attendance:
+            print("\nName already added!")
+        else:
+            attendance[name] = {"P": 0, "A": 0, "T": 0}
+            print("Added successfully!")
+
+    elif choice == "2":
+        name = input("Enter name: ")
+        if name not in attendance:
+            print("Name not found!")
+        else:
+            status = input("Mark as (P/A/T): ").upper()
+            if status in ["P", "A", "T"]:
+                attendance[name][status] += 1
+                print("Marked!")
+            else:
+                print("Invalid input! Use P, A, or T.")
+
+    elif choice == "3":
+        print("--- Attendance Records ---")
+        for name, record in attendance.items():
+            total = record["P"] + record["A"] + record["T"]
+            if total > 0:
+                percent = (record["P"] / total) * 100
+            else:
+                percent = 0
+            print(f"{name} - P:{record['P']} A:{record['A']} T:{record['T']} | {percent:.1f}%")
+        print()
+
+    elif choice == "4":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid choice! Try again.")
+
+
